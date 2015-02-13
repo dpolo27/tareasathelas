@@ -1,0 +1,52 @@
+Tarea uno
+
+
+1) explica tres etiquetas de html que jamás hayas usado y te parezcan interesantes.
+
+<audio>: es una etiqueta que permite el embedd de diferentes modalidades de audio a través del manejo desde un src, es como una conexión específica para ese tipo de archivos. Además poseé una serie de atributos que permiten modificar las características del audio embeddeado desde el mismo HTML. 
+
+<kbd> es una etiqueta que permite de manera inline ingresar texto al body con el formato visual específico que señala que las palabras mostradas son teclas del teclado que se tienen que tipear para poder generar determinadas funciones.
+
+<cite> etiqueta que permite generar referencias textuales sacadas de otros autores, esto permite colocar citas con un formato específico (que viene default en el formato del browser) que permite reconocer facilmente que se trata de una cita, o referencia. 
+
+2) cual es la jerarquía de 'specifity' en css? 
+
+- !important exception
+- universal selectors (*)
+- type selector (body)
+- class selector (.nightwatch_oath)
+- atributes selector ( h2[value])
+- pseudo-classes (:hover)
+-id selector (#nimomi)
+-inline style (<a src="#">
+<style>{
+	text-decoration:none;
+}</style></a>)
+
+3) crea un menú en html y css que liste algún elemento del juego de rol y sus subcategorias. Pueden ser parties en que has jugado, razas de la tierra media, profesiones de wow, da igual. Es necesario que cumpla los siguientes requisitos :
+
+Estructura 
+- al menos cinco categorías , 
+- todas deben desplegar subcategoria 
+- al menos una subcategoria debe tener otra subcategoria. 
+- al menos una categoría debe desplegar un formulario de contacto 
+
+Css 
+- cada categoría debe tener un color distinto. 
+- no debes usar id ni clases específicas para hacer esto, solo pseudo elementos 
+- debes usar al menos un :last, :before, :after, :not, :nth-child
+
+Tarea 2
+
+Vamos a hacer un creador de parties de rol. 
+Crea al menos tres items distintos que tengan una imagen y algunos valores, puede ser título y descripción, talentos, skills, lo que quieran. 
+
+Estos elementos estarán en la zona superior o izquierda de tu pantalla, debes destinar otra zona, inferior o derecha, para agrupar allí el party que crearás. 
+
+Pregunta: es Js un lenguaje orientado a objetos? Si? No? X q? 
+
+1) usando JS o jQuery programa la manera en que los elementos se copiarán en la sección de party. Puede ser un botón, al hacer clik sobre ellos, no hay manera correcta de hacerlo. 
+2) debe haber un límite al número de personajes en el party. Una Ve alcanzado debe aparecer una advertencia, ya sea usando html o alert. 
+
+
+	
